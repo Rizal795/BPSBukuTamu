@@ -6,7 +6,7 @@
         <li class="breadcrumb-item">
             <a href="index.html"><i class="la la-home font-20"></i></a>
         </li>
-        <li class="breadcrumb-item">Data User</li>
+        {{-- <li class="breadcrumb-item">Data User</li> --}}
     </ol>
 </div>
 <div class="page-content fade-in-up">

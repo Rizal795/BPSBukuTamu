@@ -8,6 +8,9 @@
   <title>Login Sistem</title>
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Favicons -->
+  <link href="tamu/img/Logo_BPS.png" rel="icon">
+  <link href="tamu/img/Logo_BPS.png" rel="apple-touch-icon">
   <!-- Font Awesome -->
   {{-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" /> --}}
   <link href="./assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -23,7 +26,7 @@
   <style>
     .gradient-custom-2 {
       /* fallback for old browsers */
-      background: #03943c;
+      background: #445cd0;
 
       Chrome 10-25, Safari 5.1-6
       /* background: -webkit-linear-gradient(to left, #e7ee24, #36d882, #36dd73, #1d724a); */
@@ -42,7 +45,7 @@
                 <div class="card-body p-md-5 mx-md-4">
 
                 <div class="text-center">
-                <img class="mb-3" src="{{ asset('login-asset/img/Logo.png') }}" style="width: 100px;" alt="logo">
+                <img class="mb-3" src="{{ asset('login-asset/img/Logo_BPS.png') }}" style="width: 100px;" alt="logo">
                 <h4 class="mt-1 mb-3 pb-1 text-muted" style="font-size: 19px">Login E-Tamu</h4>
                 </div>
 
@@ -80,7 +83,8 @@
                       {{-- <a class="btn btn-primary btn-block fa-lg mb-3" href="/" type="button">Kembali Ke Halaman Awal</a> --}}
                       <h6 class="text-muted" style="font-size: 12px"> - - - Log In With - - - </h6>
                       <a class="btn btn-info mb-1 btn-block btn-danger" href="{{ '/auth/redirect'}}"><i class="fa fa-brands fa-google-plus"></i></a>
-                      <a class="text-muted" style="font-size: 12px" href="{{ route('password.request') }}">Forgot password?</a>
+                      <a class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="font-size: 12px" href="/register">Register</a>
+                      
                     </div>
 
                     {{-- <div class="d-flex align-items-center justify-content-center pb-4">
@@ -91,7 +95,7 @@
                   </form>
                   <footer class="page-footer">
                     <div style="font-size:2.9mm" class="col-md-12 mb-2 mb-lg-0 text-center small text-dark">
-                        2023 © <b>PKL IST 2023</b> - All rights reserved.
+                        Copyright <b>PKL IST 2023</b> - All rights reserved.
                         <span class="px-1 text-muted">|</span>
                         {{-- Dibuat dengan ♥ untuk 🇮🇩 --}}
                     </div>
@@ -104,7 +108,19 @@
                   <h4 class="mb-4">Hello!
                   </h4>
                   <p class="small mb-0">
-                    E-Tamu merupakan aplikasi pembukuan tamu yang menyimpan semua data informasi tamu yang datang ke BAPPEDA
+                    E-Tamu adalah sebuah sistem atau aplikasi yang dirancang untuk mengelola dan memfasilitasi proses 
+                    penerimaan tamu atau pengunjung di suatu tempat atau organisasi secara elektronik. Sistem ini memanfaatkan 
+                    teknologi dan perangkat lunak untuk mempercepat dan menyederhanakan proses pendaftaran, identifikasi, dan pengawasan tamu.<br>
+                    Beberapa fitur umum yang mungkin dimiliki oleh sistem E-Tamu meliputi:<br>
+                    a. Pendaftaran Tamu<br>
+                    b. Identifikasi Tamu<br>
+                    c. Cetak Kartu Tamu<br>
+                    d. Pemberitahuan Kedatangan<br>
+                    e. Pencatatan Kunjungan<br>
+                    f. Keamanan dan Keberlanjutan<br>
+                    E-Tamu memiliki manfaat dalam meningkatkan efisiensi, keamanan, dan pengalaman tamu. Sistem ini umumnya 
+                    digunakan di berbagai jenis organisasi seperti kantor, hotel, rumah sakit, gedung perkantoran, pusat konferensi, 
+                    dan tempat-tempat umum lainnya.
                   </p>
                 </div>
               </div>

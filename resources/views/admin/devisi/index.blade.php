@@ -6,13 +6,13 @@
         <li class="breadcrumb-item">
             <a href="index.html"><i class="la la-home font-20"></i></a>
         </li>
-        <li class="breadcrumb-item">Data Devisi</li>
+        {{-- <li class="breadcrumb-item">Data Devisi</li> --}}
     </ol>
 </div>
 <div class="page-content fade-in-up">
     <div class="ibox">
         <div class="ibox-head">
-            <div class="ibox-title">List Data</div>
+            <div class="ibox-title">List Data Devisi</div>
             <button class="btn btn-sm btn-success" data-toggle="modal" data-target="#addRowModal"> <i class="fa fa-plus"></i>Tambah</button>
         </div>
         <div class="ibox-body">

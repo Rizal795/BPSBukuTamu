@@ -6,13 +6,13 @@
         <li class="breadcrumb-item">
             <a href="index.html"><i class="la la-home font-20"></i></a>
         </li>
-        <li class="breadcrumb-item">List Data Tamu</li>
+        {{-- <li class="breadcrumb-item">List Data Tamu</li> --}}
     </ol>
 </div>
 <div class="page-content fade-in-up">
     <div class="ibox">
         <div class="ibox-head">
-            <div class="ibox-title">List Data</div>
+            <div class="ibox-title">List Data Tamu</div>
             <div class="btn-group m-b-10">
                 {{-- <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#addRowModal"><i class="fa fa-plus"></i> Tambah</button> --}}
                 <a href="{{ route('cetak.tamu') }}" class="btn btn-danger btn-sm"><i class="fa fa-solid fa-download"></i> Dwonload PDF</a>

@@ -11,12 +11,12 @@
     <center>
         <table>
             <tr>
-                <td><img src="./login-asset/img/Logo.png" width="90" height="90"></td>
+                <td><img src="./login-asset/img/Logo_BPS.png" width="90" height="90"></td>
                 <td>
                 <center>
-                    <font size="3">BADAN PERENCANAAN DAN PEMBANGUNAN DAERAH</font><br>
-                    <font size="2">Jl. Trunojoyo No.120, Karangrawa,Bangselok, Kec. Kota Sumenep, Kabupaten Sumenep</font><br>
-                    <font size="2"><i>Telp./Fax (0328) 662189 e-mail: bappeda.sumenepkab@gmail.com</i></font>
+                    <font size="3">BADAN PUSAT STATISTIK KABUPATEN PAMEKASAN</font><br>
+                    <font size="2">Jl. Bonorogo No.34A, Tebana, Lawangan Daya, Kec. Pademawu, Kabupaten Pamekasan, Jawa Timur 69323</font><br>
+                    <font size="2"><i>Telepon: (0324) 328834 e-mail: https://pamekasankab.bps.go.id</i></font>
                 </center>
                 </td>
             </tr>

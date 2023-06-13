@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>E-Tamu | Dashboard</title>
+    <!-- Favicons -->
+    <link href="tamu/img/Logo_BPS.png" rel="icon">
+    <link href="tamu/img/Logo_BPS.png" rel="apple-touch-icon">
     <!-- GLOBAL MAINLY STYLES-->
     <link href="./assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -21,19 +24,19 @@
 <body class="fixed-navbar">
     <div class="page-wrapper">
         <!-- START HEADER-->
-        <header class="header">
-            <div class="page-brand">
+        <header class="header" >
+            <div class="page-brand" style="background-color: #f8f8f9">
                 <a class="link" href="{{ route('home') }}">
                     <span class="brand">
-                        <img class="mb-3" src="{{ asset('login-asset/img/Logo.png') }}" style="width: 30px;" alt="logo">
-                        <span class="brand-tip"> <b>{{config('app.name')}}</b></span>
+                        <img class="mb-3" src="{{ asset('login-asset/img/Logo_BPS.png') }}" style="width: 40px;" alt="logo">
+                        <span class="brand-tip"><b>{{config('app.name')}}</b></span>
                     </span>
                     <span class="brand-mini">
-                        <img class="mb-3" src="{{ asset('login-asset/img/Logo.png') }}" style="width: 30px;" alt="logo">
+                        <img class="mb-3" src="{{ asset('login-asset/img/Logo_BPS.png') }}" style="width: 30px;" alt="logo">
                     </span>
                 </a>
             </div>
-            <div class="flexbox flex-1">
+            <div class="flexbox flex-1" style="background-color: #23b7e5">
                 <!-- START TOP-LEFT TOOLBAR-->
                 <ul class="nav navbar-toolbar">
                     <li>
@@ -49,7 +52,7 @@
                             <span></span>{{ Auth::user()->name }}<i class="fa fa-angle-down m-l-5"></i></a>
                         <ul class="dropdown-menu dropdown-menu-right">
                             <a class="dropdown-item" href="{{ route('user') }}"><i class="fa fa-user"></i>Profile</a>
-                            <a class="dropdown-item" href="{{ route('user') }}"><i class="fa fa-cog"></i>Settings</a>
+                            {{-- <a class="dropdown-item" href="{{ route('user') }}"><i class="fa fa-cog"></i>Settings</a> --}}
                             <li class="dropdown-divider"></li>
                             <a class="dropdown-item" onclick="event.preventDefault();
                             document.getElementById('logout-form').submit();" href="{{ route('logout') }}"><i class="fa fa-power-off"></i>Logout</a>
@@ -71,7 +74,7 @@
             @yield('content')
             <!-- END PAGE CONTENT-->
             <footer class="page-footer">
-                <div class="font-13">2023 © <b>temola_ar</b> - All rights reserved.</div>
+                <div class="font-13">Copyright <b>PKL IST 2023</b> - All rights reserved.</div>
                 <a class="px-4" href="http://themeforest.net/item/adminca-responsive-bootstrap-4-3-angular-4-admin-dashboard-template/20912589" target="_blank">BUY PREMIUM</a>
                 <div class="to-top"><i class="fa fa-angle-double-up"></i></div>
             </footer>
