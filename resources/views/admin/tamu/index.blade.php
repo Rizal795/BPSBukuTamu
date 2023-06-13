@@ -14,8 +14,9 @@
         <div class="ibox-head">
             <div class="ibox-title">List Data</div>
             <div class="btn-group m-b-10">
-                <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#addRowModal"><i class="fa fa-plus"></i> Tambah</button>
-                <a href="{{ route('cetak.tamu') }}" class="btn btn-danger btn-sm"><i class="fa fa-solid fa-download"></i> Donload PDF</a>
+                {{-- <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#addRowModal"><i class="fa fa-plus"></i> Tambah</button> --}}
+                <a href="{{ route('cetak.tamu') }}" class="btn btn-danger btn-sm"><i class="fa fa-solid fa-download"></i> Dwonload PDF</a>
+                <a href="{{ route('export.exell') }}" class="btn btn-success btn-sm"><i class="fa fa-solid fa-download"></i> Dwonload Excel</a>
                 {{-- <button class="btn btn-info btn-sm"><i class="fa fa-solid fa-download"></i> Download exel</button> --}}
             </div>
             {{-- <button class="btn btn-sm btn-success" data-toggle="modal" data-target="#addRowModal"> <i class="fa fa-plus"></i> Add</button> --}}
@@ -79,8 +80,8 @@
                         <input class="form-control" type="text" name="kontak" placeholder=" Kontak" required>
                     </div>
                     <div class="modal-footer border-0">
-                        <button type="submit" id="addRowButton"id="btn" class="btn btn-success">Kirim</button>
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="submit" id="addRowButton"id="btn" class="btn btn-success">Simpan</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
                     </div>
                 </form>
             </div>

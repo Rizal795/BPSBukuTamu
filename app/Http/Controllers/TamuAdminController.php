@@ -6,7 +6,9 @@ use App\Models\Devisi;
 use App\Models\Tamu;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use App\Exports\TamuExport;
 use PDF;
+use Excel;
 
 
 class TamuAdminController extends Controller
@@ -179,4 +181,14 @@ class TamuAdminController extends Controller
         $id = $request->id;
 		Tamu::destroy($id);
     }
+    public function export_excell()
+	{
+        // $datatamu = Tamu::leftJoin('devisi', 'devisi.id', 'tamu.tujuan')
+        // ->select('tamu.*','nama_devisi')->get();
+
+        // //  $datatamu = Tamu::all();
+        //  $no = 1;
+
+		return Excel::download(new TamuExport, 'Tamu.xlsx');
+	}
 }

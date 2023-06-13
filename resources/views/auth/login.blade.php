@@ -77,7 +77,7 @@
 
                     <div class="text-center pt-1 mb-5 pb-1">
                       <button type="submit" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log in</button>
-                      <a class="btn btn-primary btn-block fa-lg mb-3" href="/" type="button">Kembali Ke Halaman Awal</a>
+                      {{-- <a class="btn btn-primary btn-block fa-lg mb-3" href="/" type="button">Kembali Ke Halaman Awal</a> --}}
                       <h6 class="text-muted" style="font-size: 12px"> - - - Log In With - - - </h6>
                       <a class="btn btn-info mb-1 btn-block btn-danger" href="{{ '/auth/redirect'}}"><i class="fa fa-brands fa-google-plus"></i></a>
                       <a class="text-muted" style="font-size: 12px" href="{{ route('password.request') }}">Forgot password?</a>
@@ -91,9 +91,9 @@
                   </form>
                   <footer class="page-footer">
                     <div style="font-size:2.9mm" class="col-md-12 mb-2 mb-lg-0 text-center small text-dark">
-                        2023 © <b>Bahrul U.</b> - All rights reserved.
+                        2023 © <b>PKL IST 2023</b> - All rights reserved.
                         <span class="px-1 text-muted">|</span>
-                        Dibuat dengan ♥ untuk 🇮🇩
+                        {{-- Dibuat dengan ♥ untuk 🇮🇩 --}}
                     </div>
                 </footer>
 
@@ -104,7 +104,7 @@
                   <h4 class="mb-4">Hello!
                   </h4>
                   <p class="small mb-0">
-                    E-Tamu merupakan aplikasi untuk pebukuan tamu yang membantu menyimpan semua informasi tamu yang diperlukan.
+                    E-Tamu merupakan aplikasi pembukuan tamu yang menyimpan semua data informasi tamu yang datang ke BAPPEDA
                   </p>
                 </div>
               </div>

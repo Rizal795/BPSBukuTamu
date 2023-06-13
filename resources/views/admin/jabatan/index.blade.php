@@ -13,7 +13,7 @@
     <div class="ibox">
         <div class="ibox-head">
             <div class="ibox-title">List Data Jabatan</div>
-            <button class="btn btn-sm btn-success" data-toggle="modal" data-target="#addRowModal"> <i class="fa fa-plus"></i> Add</button>
+            <button class="btn btn-sm btn-success" data-toggle="modal" data-target="#addRowModal"> <i class="fa fa-plus"></i>Tambah</button>
         </div>
         <div class="ibox-body">
             <table class="table table-striped table-bordered table-hover" id="table-row" cellspacing="0" width="100%">
@@ -46,11 +46,11 @@
                     @csrf 
                     <div class="form-group">
                         <label>Nama Jabatan</label>
-                        <input class="form-control" type="text" name="nama_jabatan" placeholder="Nama Devisi" required>
+                        <input class="form-control" type="text" name="nama_jabatan" placeholder="Nama Jabatan" required>
                     </div>
                     <div class="modal-footer border-0">
-                        <button type="submit" id="addRowButton"id="btn" class="btn btn-success">Kirim</button>
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="submit" id="addRowButton"id="btn" class="btn btn-success">Simpan</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
                     </div>
                 </form>
             </div>
@@ -63,7 +63,7 @@
         <div class="modal-content">
             <div class="modal-header border-0">
                 <h5 class="modal-title">
-                    <span>Edit Data Devisi</span>
+                    <span>Edit Data Jabatan</span>
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -74,7 +74,7 @@
                     @csrf 
                     <input type="hidden" name="emp_id" id="emp_id">
                     <div class="form-group">
-                        <label>Nama devisi</label>
+                        <label>Nama Jabatan</label>
                         <input class="form-control" type="text" name="nama_jabatan" id="nama_jabatan" placeholder="Nama Devisi" required>
                     </div>
                     <div class="modal-footer border-0">

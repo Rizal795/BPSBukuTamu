@@ -7,7 +7,9 @@ use App\Models\Jabatan;
 use App\Models\Pegawai;
 use Illuminate\Http\Request;
 use App\Models\Tamu;
+use App\Exports\PegawaiExport;
 use PDF;
+use Excel;
 use Illuminate\Support\Facades\Validator;
 
 
@@ -180,4 +182,8 @@ class PegawaiController extends Controller
         $id = $request->id;
 		Pegawai::destroy($id);
     }
+    public function export_excel()
+	{
+		return Excel::download(new PegawaiExport, 'pegawai.xlsx');
+	}
 }

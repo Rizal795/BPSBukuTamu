@@ -72,7 +72,7 @@
                     data-aos="fade-up">
                     <div>
                         <h1>Selamat Datang</h1>
-                        <h2>Di Aplikasi Buku Tamu, Silahkan klik tombol dibawah ini untuk menambahkan.</h2>
+                        <h2>Di Aplikasi Buku Tamu, Silahkan klik tombol dibawah ini untuk menambahkan</h2>
                         {{-- <button type="button" href="#" class="download-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Tambah Tamu Baru</button> --}}
                         <a href="#addtamu" class="download-btn">Tambah Tamu Baru</a>
                     </div>
@@ -95,7 +95,7 @@
                         <div class="section-title">
                             <h2>List Data Tamu</h2>
                             <p>
-                                Menampilkan Data Tamu Sesuai data yang sudah di inputkan, jika terdapat kesalahan data silahkan hubungi admin.
+                                Menampilkan Data Tamu Sesuai data yang sudah di inputkan, jika terdapat kesalahan data silahkan hubungi Admin.
                             </p>
                         </div>
                     </div>
@@ -127,9 +127,8 @@
 
                 <div class="section-title">
                     <h2>Layanan Kami</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Struktur Organisasi BADAN PERENCANAAN DAN PEMBANGUNAN DAERAH Kabupaten Sumenep
+                    </p>
                 </div>
 
                 <div class="row no-gutters">
@@ -147,33 +146,33 @@
                                 </div>
                                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                                     <i class="bx bx-cube-alt"></i>
-                                        <h4>Bidang Perencanaan Pembangunan Ekonomi</h4>
+                                        <h4>Bidang Perencanaan Pengendalian Dan Evaluasi Pembangunan Daerah</h4>
                                 </div>
                                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                                     <i class="bx bx-cube-alt"></i>
-                                    <h4>Bidang Perencanaan Pembangunan Sosial Budaya</h4>
+                                    <h4>Bidang Pemerintahan Dan Pembangunan Manusia</h4>
 
                                 </div>
                                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                                     <i class="bx bx-cube-alt"></i>
-                                    <h4>Bidang Perencanaan Sarana dan Prasarana</h4>
+                                    <h4>Bidang Perekonomian Dan Sumber Daya Alam</h4>
                                 </div>
                                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                                     <i class="bx bx-cube-alt"></i>
-                                    <h4>Bidang Statistik Dan Evaluasi</h4>
+                                    <h4>Bidang Infrastruktur Dan Kewilayahan</h4>
                                 </div>
                                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                                     <i class="bx bx-cube-alt"></i>
                                     <h4>Bidang Penelitian Dan Pengembangan</h4>
                                 </div>
-                                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                                {{-- <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                                     <i class="bx bx-cube-alt"></i>
                                     <h4>Bidang Penanaman Modal</h4>
-                                </div>
-                                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                                </div> --}}
+                                {{-- <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                                     <i class="bx bx-cube-alt"></i>
                                     <h4>Bidang Percepatan Pembangunan Wilayah Kepulauan</h4>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -228,10 +227,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Testimonials</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <h2>Galeri Kami</h2>
                 </div>
 
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -384,7 +380,7 @@
                 <div class="section-title">
                     <h2>Tambah Tamu Baru</h2>
                     <p>
-                        Tambahkan tamu baru, harap lengkapi data!
+                        Silahkan input data tamu dengan benar !
                     </p>
                 </div>
 
@@ -394,23 +390,23 @@
                         <div class="row">
                             <div class="col-lg-6 info">
                                 <i class="bx bx-map"></i>
-                                <h4>Address</h4>
+                                <h4>Alamat</h4>
                                 <p>Jl. Trunojoyo No.120,<br>Karangrawa,Bangselok, Kec. Kota Sumenep, Kabupaten Sumenep, Jawa Timur 69417</p>
                             </div>
                             <div class="col-lg-6 info">
                                 <i class="bx bx-phone"></i>
-                                <h4>Call Us</h4>
-                                <p>0328 662189<br>+62 877-6578-7679</p>
+                                <h4>Hubungi Kami</h4>
+                                <p>0328 662189<br>+62 878-8469-9099</p>
                             </div>
                             <div class="col-lg-6 info">
                                 <i class="bx bx-envelope"></i>
-                                <h4>Email Us</h4>
+                                <h4>Email Kami</h4>
                                 <p>bappeda.sumenepkab@gmail.com</p>
                             </div>
                             <div class="col-lg-6 info">
                                 <i class="bx bx-time-five"></i>
-                                <h4>Working Hours</h4>
-                                <p>Mon - Fri: 07:30 AM - 15:30 PM</p>
+                                <h4>Jam Kerja</h4>
+                                <p>Senin - Jum'at : 07:30 AM - 15:30 PM</p>
                             </div>
                         </div>
                     </div>

@@ -13,10 +13,10 @@
                     <span class="nav-label">Home</span>
                 </a>
             </li>
-            <li class="heading">Data Mater</li>
+            <li class="heading">Data Struktur Organisasi</li>
             <li>
                 <a href="javascript:;"><i class="sidebar-item-icon fa fa-bookmark"></i>
-                    <span class="nav-label">Master</span><i class="fa fa-angle-left arrow"></i></a>
+                    <span class="nav-label">Struktur Organisasi</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
                     <li>
                         <a href="{{ route('devisi') }}"><i class="sidebar-item-icon fa fa-solid fa-sitemap"></i>Devisi</a>
@@ -38,10 +38,10 @@
                     <span class="nav-label">Tamu</span>
                 </a>
             </li>
-            <li class="heading">Setting</li>
+            <li class="heading">Pengaturan</li>
             <li>
                 <a href="javascript:;"><i class="sidebar-item-icon fa fa-solid fa-sliders"></i>
-                    <span class="nav-label">Setting</span><i class="fa fa-angle-left arrow"></i></a>
+                    <span class="nav-label">Pengaturan</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
                     <li>
                         <a href="{{ route('user') }}"><i class="sidebar-item-icon fa a-solid fa-user"></i>User</a>

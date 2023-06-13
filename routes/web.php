@@ -58,6 +58,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/admintamu/update', [TamuAdminController::class, 'update'])->name('admintamu.update');
     Route::delete('/admintamu/destroy', [TamuAdminController::class, 'destroy'])->name('admintamu.destroy');
     Route::get('/admintamu/cetak_pdf', [TamuAdminController::class, 'cetak'])->name('cetak.tamu');
+    Route::get('/admintamu/export_excell', [TamuAdminController::class, 'export_excell'])->name('export.exell');
 
     Route::get('/jabatan', [App\Http\Controllers\JabatanController::class, 'index'])->name('jabatan');
     Route::get('/jabatan/data', [JabatanController::class, 'data'])->name('jabatan.data');
@@ -73,5 +74,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/pegawai/update', [PegawaiController::class, 'update'])->name('pegawai.update');
     Route::delete('/pegawai/destroy', [PegawaiController::class, 'destroy'])->name('pegawai.destroy');
     Route::get('/pegawai/cetak_pdf', [PegawaiController::class, 'cetak'])->name('cetak.pegawai');
+    Route::get('/pegawai/export_excel', [PegawaiController::class, 'export_excel'])->name('export.exel');
+    
 
 });

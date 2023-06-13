@@ -13,7 +13,7 @@
     <div class="ibox">
         <div class="ibox-head">
             <div class="ibox-title">List Data User</div>
-            <button class="btn btn-sm btn-success" data-toggle="modal" data-target="#addRowModal"> <i class="fa fa-plus"></i> Add</button>
+            <button class="btn btn-sm btn-success" data-toggle="modal" data-target="#addRowModal"> <i class="fa fa-plus"></i> Tambah</button>
         </div>
         <div class="ibox-body">
             <table class="table table-striped table-bordered table-hover" id="table-row" cellspacing="0" width="100%">
@@ -66,8 +66,8 @@
                         <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required placeholder="Ketik Ulang Password" autocomplete="new-password">
                     </div>
                     <div class="modal-footer border-0">
-                        <button type="submit" id="addRowButton"id="btn" class="btn btn-success">Kirim</button>
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="submit" id="addRowButton"id="btn" class="btn btn-success">Simpan</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
                     </div>
                 </form>
             </div>
